@@ -8,179 +8,281 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zikula 1.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-23 09:56+0000\n"
+"POT-Creation-Date: 2016-03-30 14:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: pnadmin.php:95 pnadmin.php:184
-msgid "Error! The form is not complete."
+#: lib/Programador/Util.php:538 lib/Programador/Util.php:542
+#, php-format
+msgid "%s: called with invalid %s."
 msgstr ""
 
-#: pnadmin.php:123 pnadmin.php:207
-msgid "Error trying update."
+#: lib/Programador/Util.php:548
+#, php-format
+msgid "The destination path [%s] does not exist or is not writable"
 msgstr ""
 
-#: pnadmin.php:131
-msgid "Error trying to insert."
+#: lib/Programador/Util.php:550
+msgid "The destination path does not exist or is not writable"
 msgstr ""
 
-#: pnadmin.php:133
-msgid "Program inserted sucessfully."
+#: lib/Programador/Util.php:564
+msgid "That filename already exists. Please choose a different name."
 msgstr ""
 
-#: pnadmin.php:154 pnadmin.php:247 pnuserapi.php:52 pnuserapi.php:74
-#: pnuserapi.php:108 pnuserapi.php:155 pnuserapi.php:184 pnadminapi.php:114
-msgid "Error! Record do not found."
+#: lib/Programador/Form/Handler/Admin/Edit.php:41
+#: lib/Programador/Form/Handler/Admin/Edit.php:54
+#, php-format
+msgid "Program with id %s not found"
 msgstr ""
 
-#: pnadmin.php:209
-msgid "Program updated sucessfully."
+#: lib/Programador/Form/Handler/Admin/Edit.php:106
+#, php-format
+msgid "Item [id# %s] deleted!"
 msgstr ""
 
-#: pnadmin.php:252
-msgid "Program deleted sucessfully."
+#: lib/Programador/Form/Handler/Admin/Edit.php:166
+#, php-format
+msgid "Item [id# %s] updated!"
 msgstr ""
 
-#: pnversion.php:14 pnversion.php:15 pntemplates/Programador_admin_view.htm:6
-#: pntemplates/Programador_admin_modify.htm:7
-#: pntemplates/Programador_admin_new.htm:7
-#: pntemplates/Programador_admin_delete.htm:5
+#: lib/Programador/Form/Handler/Admin/Edit.php:169
+msgid "Item created!"
+msgstr ""
+
+#: lib/Programador/Installer.php:30
+msgid "Doctrine Exception: "
+msgstr ""
+
+#: lib/Programador/Installer.php:95
+#, php-format
+msgid ""
+"Created the file storage directory successfully at [%s]. Be sure that this "
+"directory is accessible via web and writable by the webserver."
+msgstr ""
+
+#. !used in URL - nospaces, no special chars, lcase
+#: lib/Programador/Version.php:18 lib/Programador/Version.php:19
+#: templates/search/options.tpl:3
 msgid "Programador"
 msgstr ""
 
-#: pnversion.php:17
+#: lib/Programador/Version.php:20
 msgid "Show a list of programs, features and requeriments"
 msgstr ""
 
-#: pnadminapi.php:53
-msgid "Error! Mandatory fields are not filled."
+#: lib/Programador/Api/Search.php:65
+msgid "Error! Could not save the search results."
 msgstr ""
 
-#: pnadminapi.php:118
-msgid "Error! Deletion attempt failed."
+#: lib/Programador/Api/Admin.php:27
+msgid "Programs List"
 msgstr ""
 
-#: pntemplates/Programador_admin_menu.htm:4
-#: pntemplates/Programador_admin_view.htm:5
-#: pntemplates/Programador_admin_modify.htm:6
-#: pntemplates/Programador_admin_new.htm:6
-#: pntemplates/Programador_admin_delete.htm:4
-msgid "Administration of the Programador Module"
+#: lib/Programador/Api/Admin.php:34
+msgid "New program"
 msgstr ""
 
-#: pntemplates/Programador_admin_view.htm:14
-#: pntemplates/Programador_admin_view.htm:53
-msgid "Create Program"
+#: lib/Programador/Api/Admin.php:41
+msgid "Settings"
 msgstr ""
 
-#: pntemplates/Programador_admin_view.htm:23
-msgid "Name"
+#: lib/Programador/Controller/User.php:124
+#, php-format
+msgid "Error! Could not find program for ID #%s."
 msgstr ""
 
-#: pntemplates/Programador_admin_view.htm:24
-msgid "Image"
+#: lib/Programador/Controller/Admin.php:162
+msgid "Done! Updated the Programador configuration."
 msgstr ""
 
-#: pntemplates/Programador_admin_view.htm:25
-#: pntemplates/Programador_user_show.htm:35
-msgid "Company"
+#: templates/admin/view.tpl:5 templates/admin/modifyposition.tpl:11
+msgid "Programador main"
 msgstr ""
 
-#: pntemplates/Programador_admin_view.htm:26
-#: pntemplates/Programador_user_show.htm:36
-msgid "Category"
+#: templates/admin/view.tpl:11 templates/user/view.tpl:30
+msgid "All"
 msgstr ""
 
-#: pntemplates/Programador_admin_view.htm:38
-msgid "Edit Program"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:12
-#: pntemplates/Programador_admin_new.htm:11
-msgid "Name:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:17
-#: pntemplates/Programador_admin_new.htm:15
-msgid "URL:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:22
-#: pntemplates/Programador_admin_new.htm:19
-msgid "Image:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:27
-#: pntemplates/Programador_admin_new.htm:23
-msgid "Description:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:32
-#: pntemplates/Programador_admin_new.htm:27
-msgid "Requeriments:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:35
-#: pntemplates/Programador_admin_new.htm:29
-msgid "The symbol that split the requeriments is %"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:38
-#: pntemplates/Programador_admin_new.htm:32
-msgid "Language:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:41
-#: pntemplates/Programador_admin_new.htm:34
-msgid "The symbol that split is ,"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:44
-#: pntemplates/Programador_user_show.htm:95
-#: pntemplates/Programador_admin_new.htm:37
-msgid "Company:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:52
-#: pntemplates/Programador_admin_new.htm:44
-msgid "Category:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:60
-#: pntemplates/Programador_admin_new.htm:51
-msgid "Version:"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:65
-#: pntemplates/Programador_admin_new.htm:55
-msgid "Last version?"
-msgstr ""
-
-#: pntemplates/Programador_admin_modify.htm:73
-#: pntemplates/Programador_admin_new.htm:59
-msgid "Submit"
-msgstr ""
-
-#: pntemplates/Programador_user_show.htm:47
+#: templates/admin/view.tpl:12 templates/admin/view.tpl:43
+#: templates/user/view.tpl:31 templates/user/view.tpl:53
 msgid "Filter"
 msgstr ""
 
-#: pntemplates/Programador_user_show.htm:100
-msgid "History"
+#: templates/admin/view.tpl:16 templates/admin/view.tpl:52
+#: templates/admin/modifyposition.tpl:22
+msgid "Name"
 msgstr ""
 
-#: pntemplates/Programador_admin_delete.htm:13
-msgid "Do you want delete this record?"
+#: templates/admin/view.tpl:25 templates/admin/view.tpl:55
+#: templates/admin/edit.tpl:58 templates/admin/modifyposition.tpl:25
+#: templates/user/view.tpl:35
+msgid "Company"
 msgstr ""
 
-#: pntemplates/Programador_admin_delete.htm:16
-msgid "Confirm"
+#: templates/admin/view.tpl:34 templates/admin/view.tpl:56
+#: templates/admin/edit.tpl:64 templates/admin/modifyposition.tpl:26
+#: templates/user/view.tpl:44
+msgid "Category"
 msgstr ""
 
-#: pntemplates/Programador_admin_delete.htm:17
+#: templates/admin/view.tpl:44 templates/user/view.tpl:54
+msgid "Clear"
+msgstr ""
+
+#: templates/admin/view.tpl:53 templates/admin/modifyposition.tpl:23
+msgid "Version"
+msgstr ""
+
+#: templates/admin/view.tpl:54 templates/admin/modifyposition.tpl:24
+msgid "#Version"
+msgstr ""
+
+#: templates/admin/view.tpl:57
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/view.tpl:69
+msgid "View"
+msgstr ""
+
+#: templates/admin/view.tpl:70
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/view.tpl:71
+msgid "Modify #Version"
+msgstr ""
+
+#: templates/admin/view.tpl:72
+msgid "Reuse"
+msgstr ""
+
+#: templates/admin/view.tpl:76
+msgid "No programs founded."
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:4
+msgid "Programador settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:11
+msgid "General settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:14
+msgid "Maximum file size"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:19
+msgid "Programs per page"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:27
+msgid "Allowed Extension settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:30
+msgid "limit_extension"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:35
+msgid "importfrommod"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:42 templates/admin/edit.tpl:72
+msgid "Save"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:43 templates/admin/edit.tpl:73
 msgid "Cancel"
+msgstr ""
+
+#: templates/admin/edit.tpl:5 templates/admin/edit.tpl:10
+msgid "Edit Program"
+msgstr ""
+
+#: templates/admin/edit.tpl:5 templates/admin/edit.tpl:10
+msgid "New Program"
+msgstr ""
+
+#: templates/admin/edit.tpl:15
+msgid "Program Name"
+msgstr ""
+
+#: templates/admin/edit.tpl:20
+msgid "Program Version"
+msgstr ""
+
+#: templates/admin/edit.tpl:25
+msgid "Choose file for image"
+msgstr ""
+
+#: templates/admin/edit.tpl:30
+msgid "Description"
+msgstr ""
+
+#: templates/admin/edit.tpl:35
+msgid "Windows Requirements"
+msgstr ""
+
+#: templates/admin/edit.tpl:37 templates/admin/edit.tpl:43
+#: templates/admin/edit.tpl:49
+msgid "The symbol that split the requeriments is %"
+msgstr ""
+
+#: templates/admin/edit.tpl:41
+msgid "Macintosh Requirements"
+msgstr ""
+
+#: templates/admin/edit.tpl:47
+msgid "Linux Requirements"
+msgstr ""
+
+#: templates/admin/edit.tpl:53
+msgid "URL"
+msgstr ""
+
+#: templates/admin/edit.tpl:74
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/modifyposition.tpl:16
+msgid ""
+"Notice: Use drag and drop to arrange the programs in this position into your "
+"desired order. The new program order will be saved automatically."
+msgstr ""
+
+#: templates/user/display.tpl:4 templates/user/view.tpl:5
+msgid "Program List"
+msgstr ""
+
+#: templates/user/display.tpl:63 templates/user/view.tpl:97
+msgid "Windows Req."
+msgstr ""
+
+#: templates/user/display.tpl:64 templates/user/view.tpl:98
+msgid "Mac Req."
+msgstr ""
+
+#: templates/user/display.tpl:65 templates/user/view.tpl:99
+msgid "Linux Req."
+msgstr ""
+
+#: templates/user/display.tpl:68 templates/user/display.tpl:69
+#: templates/user/view.tpl:102 templates/user/view.tpl:103
+msgid "No detailed."
+msgstr ""
+
+#: templates/user/display.tpl:76 templates/user/view.tpl:110
+msgid "Company:"
+msgstr ""
+
+#: templates/user/display.tpl:81 templates/user/view.tpl:115
+msgid "History"
 msgstr ""
