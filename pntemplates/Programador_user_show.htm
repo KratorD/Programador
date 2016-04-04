@@ -1,0 +1,107 @@
+<!--[* $Id: programador_user_show.htm 22155 2007-06-04 11:35:23Z markwest $ *]-->
+<!--[pnpageaddvar name="javascript" value="modules/Programador/pnjavascript/Programador.js"]-->
+
+<p>
+	<form name="frmBsq" id="frmBsq" method="post" action="<!--[pnmodurl modname="Programador" type="user" func="buscar"]-->">
+	  <table width="600" border="0" align="center">
+		<tr>
+		  <td width="200"><div align="right"><!--[ pnimg src=dpSearch.gif width=20 height=23 ]--></div></td>
+		  <td width="200"><div align="center"><input type="text" name="txtBusqueda" /></div></td>
+		  <td width="200"><input type="submit" name="Buscar" value="Buscar" /></td>
+		</tr>
+	  </table>
+	</form>
+</p>
+	
+<p><div align="center">[
+<!--[ section name=lstLetras loop=$letras ]-->
+	<a href="<!--[pnmodurl modname="Programador" type="user" func="show" letra=$letras[lstLetras]]-->"><!--[ $letras[lstLetras] ]--></a>
+	<!--[ if $smarty.section.lstLetras.index EQ round( $numLetras / 2 ) ]-->
+		&nbsp; ]<br />[ &nbsp;
+	<!--[ else ]-->
+		&nbsp;|&nbsp;
+	<!--[ /if ]-->
+<!--[ /section ]-->
+ ]</div></p><br>
+ 
+<p>
+	<form name="frmFilter" id="frmFilter" method="post" action="<!--[pnmodurl modname="Programador" type="user" func="filter"]-->">
+	  <table width="600" border="0" align="center">
+		<tr>
+		  <td width="200">
+		  	<div align="center">
+		  		<select name="Tipo" id="Tipo" onchange="Programador_cargaCmb('<!--[ $comp ]-->','<!--[ $categ ]-->')">
+		  			<option value="vacio" selected> - </option>
+		  			<option value="empresa"><!--[gt text="Company"]--></option>
+		  			<option value="categoria"><!--[gt text="Category"]--></option>
+		  		</select>
+		  	</div>
+		  </td>
+		  <td width="200">
+		  	<div align="center">
+		  		<select name="cmb" id="cmb">
+		  			<option value="-">-</option>
+		  		</select>
+		  	</div>
+		  </td>
+		  <td width="200"><input type="submit" name="Filtrar" value="<!--[gt text="Filter"]-->" /></td>
+		</tr>
+	  </table>
+	</form>
+</p>
+
+<!--[ foreach from=$listado item=lista name=con]-->
+
+	<table width="600" border="1" align="center">
+  	<tr>
+    	<td height="25" bgcolor="#66CC99">
+    		<div align="center"><a href="<!--[ $lista.Web ]-->">
+    		<!--[ $lista.Nombre ]-->&nbsp;<!--[ $lista.Version ]--></a></div>
+    	</td>
+    </tr>
+    <tr>
+      <td><table width="600" border="1">
+        <tr>
+        <!--[if ($smarty.foreach.con.iteration % 2) eq 0]-->
+        	<td width="200" height="200" align="center" valign="middle"> 
+            <div align="center">
+             	<!--[ pnimg src=$lista.imgProg ]-->
+            </div>
+          </td>
+          <td bgcolor="#CCCC66">
+        		<p><!--[ $lista.Descripcion ]--></p>
+            <p><ul><!--[ requisitos req=$lista.Requisitos ]--></ul></p>
+            <p><!--[ banderas banderas=$lista.Idioma ]--></p>
+          </td>
+        <!--[else]-->
+        	<td bgcolor="#CCCC66">
+        		<p><!--[ $lista.Descripcion ]--></p>
+            <p><ul><!--[ requisitos req=$lista.Requisitos ]--></ul></p>
+            <p><!--[ banderas banderas=$lista.Idioma ]--></p>
+          </td>
+          <td width="200" height="200" align="center" valign="middle"> 
+            <div align="center">
+             	<!--[ pnimg src=$lista.imgProg ]-->
+            </div>
+          </td>
+        <!--[/if]-->
+        </tr></table>
+      </td>
+    </tr>
+    <tr>
+	    <td>
+	  		<table width="600" border="1">
+		  		<tr>
+	  				<td width="200" bgcolor="#66CC99"><div align="center"><!--[gt text="Company:"]--> <!--[ $lista.Empresa ]--></div></td>
+        		<td width="380" height="25" bgcolor="#66CC99"><div align="center"><!--[ $lista.Categoria ]--></div></td>
+        		<!--[if $version NE 1]-->
+        		<td width="20" bgcolor="#66CC99"><div align="center">
+        			<a href="<!--[pnmodurl modname="Programador" type="user" func="version" Version=$lista.Nombre]-->">
+					<!--[ pnimg src=h-boton.gif width=20 height=20 __alt="History" altml=true ]--></a></div></td>
+						<!--[/if]-->
+		  		</tr>
+		 		</table>
+		 	</td>
+    </tr>
+  </table><br><br>
+<!--[ /foreach ]-->

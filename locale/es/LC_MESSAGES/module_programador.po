@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-23 09:56+0000\n"
+"PO-Revision-Date: 2011-06-23 10:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pnadmin.php:95
+#: pnadmin.php:184
+msgid "Error! The form is not complete."
+msgstr "Error! El formulario no está rellenado por completo."
+
+#: pnadmin.php:123
+#: pnadmin.php:207
+msgid "Error trying update."
+msgstr "Error intentando actualizar."
+
+#: pnadmin.php:131
+msgid "Error trying to insert."
+msgstr "Error intentando insertar."
+
+#: pnadmin.php:133
+msgid "Program inserted sucessfully."
+msgstr "Programa insertado con éxito."
+
+#: pnadmin.php:154
+#: pnadmin.php:247
+#: pnuserapi.php:52
+#: pnuserapi.php:74
+#: pnuserapi.php:108
+#: pnuserapi.php:155
+#: pnuserapi.php:184
+#: pnadminapi.php:114
+msgid "Error! Record do not found."
+msgstr "Error! Registro no encontrado."
+
+#: pnadmin.php:209
+msgid "Program updated sucessfully."
+msgstr "Programa actualizado con éxito."
+
+#: pnadmin.php:252
+msgid "Program deleted sucessfully."
+msgstr "Programa borrado con éxito."
+
+#: pnversion.php:14
+#: pnversion.php:15
+#: pntemplates/Programador_admin_view.htm:6
+#: pntemplates/Programador_admin_modify.htm:7
+#: pntemplates/Programador_admin_new.htm:7
+#: pntemplates/Programador_admin_delete.htm:5
+msgid "Programador"
+msgstr "Programador"
+
+#: pnversion.php:17
+msgid "Show a list of programs, features and requeriments"
+msgstr "Mostrar una lista de programas, descripciones y requisitos."
+
+#: pnadminapi.php:53
+msgid "Error! Mandatory fields are not filled."
+msgstr "Error! No ha rellenado los campos obligatorios."
+
+#: pnadminapi.php:118
+msgid "Error! Deletion attempt failed."
+msgstr "Error! No se pudo borrar."
+
+#: pntemplates/Programador_admin_menu.htm:4
+#: pntemplates/Programador_admin_view.htm:5
+#: pntemplates/Programador_admin_modify.htm:6
+#: pntemplates/Programador_admin_new.htm:6
+#: pntemplates/Programador_admin_delete.htm:4
+msgid "Administration of the Programador Module"
+msgstr "Administración del Módulo Programador"
+
+#: pntemplates/Programador_admin_view.htm:14
+#: pntemplates/Programador_admin_view.htm:53
+msgid "Create Program"
+msgstr "Crear Programa"
+
+#: pntemplates/Programador_admin_view.htm:23
+msgid "Name"
+msgstr "Nombre"
+
+#: pntemplates/Programador_admin_view.htm:24
+msgid "Image"
+msgstr "Imagen"
+
+#: pntemplates/Programador_admin_view.htm:25
+#: pntemplates/Programador_user_show.htm:35
+msgid "Company"
+msgstr "Empresa"
+
+#: pntemplates/Programador_admin_view.htm:26
+#: pntemplates/Programador_user_show.htm:36
+msgid "Category"
+msgstr "Categoría"
+
+#: pntemplates/Programador_admin_view.htm:38
+msgid "Edit Program"
+msgstr "Editar Programa"
+
+#: pntemplates/Programador_admin_modify.htm:12
+#: pntemplates/Programador_admin_new.htm:11
+msgid "Name:"
+msgstr "Nombre:"
+
+#: pntemplates/Programador_admin_modify.htm:17
+#: pntemplates/Programador_admin_new.htm:15
+msgid "URL:"
+msgstr "Enlace:"
+
+#: pntemplates/Programador_admin_modify.htm:22
+#: pntemplates/Programador_admin_new.htm:19
+msgid "Image:"
+msgstr "Imagen:"
+
+#: pntemplates/Programador_admin_modify.htm:27
+#: pntemplates/Programador_admin_new.htm:23
+msgid "Description:"
+msgstr "Descripción:"
+
+#: pntemplates/Programador_admin_modify.htm:32
+#: pntemplates/Programador_admin_new.htm:27
+msgid "Requeriments:"
+msgstr "Requisitos:"
+
+#: pntemplates/Programador_admin_modify.htm:35
+#: pntemplates/Programador_admin_new.htm:29
+msgid "The symbol that split the requeriments is %"
+msgstr "El símbolo que divide los requisitos es el %"
+
+#: pntemplates/Programador_admin_modify.htm:38
+#: pntemplates/Programador_admin_new.htm:32
+msgid "Language:"
+msgstr "Lenguaje:"
+
+#: pntemplates/Programador_admin_modify.htm:41
+#: pntemplates/Programador_admin_new.htm:34
+msgid "The symbol that split is ,"
+msgstr "El simbolo que separa es la ,"
+
+#: pntemplates/Programador_admin_modify.htm:44
+#: pntemplates/Programador_user_show.htm:95
+#: pntemplates/Programador_admin_new.htm:37
+msgid "Company:"
+msgstr "Empresa:"
+
+#: pntemplates/Programador_admin_modify.htm:52
+#: pntemplates/Programador_admin_new.htm:44
+msgid "Category:"
+msgstr "Categoría:"
+
+#: pntemplates/Programador_admin_modify.htm:60
+#: pntemplates/Programador_admin_new.htm:51
+msgid "Version:"
+msgstr "Versión:"
+
+#: pntemplates/Programador_admin_modify.htm:65
+#: pntemplates/Programador_admin_new.htm:55
+msgid "Last version?"
+msgstr "Ultima versión?"
+
+#: pntemplates/Programador_admin_modify.htm:73
+#: pntemplates/Programador_admin_new.htm:59
+msgid "Submit"
+msgstr "Enviar"
+
+#: pntemplates/Programador_user_show.htm:47
+msgid "Filter"
+msgstr "Filtrar"
+
+#: pntemplates/Programador_user_show.htm:100
+msgid "History"
+msgstr "Historial"
+
+#: pntemplates/Programador_admin_delete.htm:13
+msgid "Do you want delete this record?"
+msgstr "¿Estás seguro que quieres borrar este registro?"
+
+#: pntemplates/Programador_admin_delete.htm:16
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: pntemplates/Programador_admin_delete.htm:17
+msgid "Cancel"
+msgstr "Cancelar"
+
